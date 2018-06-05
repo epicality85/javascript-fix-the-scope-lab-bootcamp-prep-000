@@ -32,9 +32,9 @@ var funkyFunction = function()
 
 // first assign return of funkyFunction to theFunk variable
 // this will make theFunk = function(){ return "FUNKY!" }
-//var theFunk = funkyFunction()
+var theFunk = funkyFunction()
 // then we need to execute the inner function for the return string ("FUNKY!")
 // we can reassign theFunk var to the executed function of theFunk() which gives
 // the return string ("FUNKY!")
-//theFunk = theFunk()
-theFunk = "FUNKY!"
+theFunk = theFunk()
+
